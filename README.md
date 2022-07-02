@@ -1,1 +1,2 @@
 # Lion-ERP
+TFC en el que se desarrolla un gestor ERP funcional centrado en la gestión de usuarios, productos, proveedores, clientes, pedidos e incidencias, todo ello usando múltiples plugins como SAP Crystal reports para la generación de facturas, Mahapp.Metro para la estética, GhostDoc para la documentación, todo ello usando .NET sobre una base de datos Oracle XE contenida en una imagen de Docker
