@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleDB-MVC-WPF", "ExampleDB-MVC-WPF\ExampleDB-MVC-WPF.csproj", "{5B9A73D6-C3DD-469B-8E8F-41D6F8DA3C73}"
+EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Documentation", "Documentation\Documentation.shfbproj", "{9E39FF96-E466-4903-BF6E-66FBA5FA6982}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B9A73D6-C3DD-469B-8E8F-41D6F8DA3C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B9A73D6-C3DD-469B-8E8F-41D6F8DA3C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B9A73D6-C3DD-469B-8E8F-41D6F8DA3C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B9A73D6-C3DD-469B-8E8F-41D6F8DA3C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E39FF96-E466-4903-BF6E-66FBA5FA6982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E39FF96-E466-4903-BF6E-66FBA5FA6982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E39FF96-E466-4903-BF6E-66FBA5FA6982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E39FF96-E466-4903-BF6E-66FBA5FA6982}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00CE5900-1E4D-4CE6-9484-02BBE5878B74}
+	EndGlobalSection
+EndGlobal

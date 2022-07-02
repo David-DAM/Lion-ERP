@@ -1,0 +1,2215 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExampleDB-MVC-WPF</name>
+    </assembly>
+    <members>
+        <member name="M:ExampleDB_MVC_WPF.Domain.City.readCity">
+            <summary>
+            Reads the city.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.City.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object" />, is equal to this instance.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object" /> to compare with this instance.</param>
+            <returns>
+              <c>true</c> if the specified <see cref="T:System.Object" /> is equal to this instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Color.readColor">
+            <summary>
+            Reads the color.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Color.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object" />, is equal to this instance.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object" /> to compare with this instance.</param>
+            <returns>
+              <c>true</c> if the specified <see cref="T:System.Object" /> is equal to this instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Customer.readAll">
+            <summary>
+            Reads all.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Customer.getZipcodeName(System.Int32)">
+            <summary>
+            Gets the name of the zipcode.
+            </summary>
+            <param name="refzipcode">The refzipcode.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Customer.getZipcodeCities">
+            <summary>
+            Gets the zipcode cities.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Customer.getZipcode">
+            <summary>
+            Gets the zipcode.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Customer.insertCustomer">
+            <summary>
+            Inserts the customer.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Customer.insertToFill">
+            <summary>
+            Inserts to fill.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Customer.deleteCustomer">
+            <summary>
+            Deletes the customer.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Customer.modifyCustomer">
+            <summary>
+            Modifies the customer.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Customer.readCustomer">
+            <summary>
+            Reads the customer.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Customer.loadRegions">
+            <summary>
+            Loads the regions.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Customer.loadStates(System.Int32)">
+            <summary>
+            Loads the states.
+            </summary>
+            <param name="refregion">The refregion.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Customer.loadCities(System.Int32)">
+            <summary>
+            Loads the cities.
+            </summary>
+            <param name="refstate">The refstate.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Customer.loadZipcodes(System.Int32)">
+            <summary>
+            Loads the zipcodes.
+            </summary>
+            <param name="refcity">The refcity.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Customer.loadAllWithZipcodes(System.String)">
+            <summary>
+            Loads all with zipcodes.
+            </summary>
+            <param name="zipcode">The zipcode.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Customer.searchCustomer(System.String)">
+            <summary>
+            Searches the customer.
+            </summary>
+            <param name="filtro">The filtro.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Customer.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object" />, is equal to this instance.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object" /> to compare with this instance.</param>
+            <returns>
+              <c>true</c> if the specified <see cref="T:System.Object" /> is equal to this instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Incident.readAll">
+            <summary>
+            Reads all.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Incident.loadDatatableIncidents">
+            <summary>
+            Loads the datatable with incidents.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Incident.fixIncident">
+            <summary>
+            Fixes the incident.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Incident.getProductMoreIncident">
+            <summary>
+            Gets the product more incident.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Incident.getProductMostReturned">
+            <summary>
+            Gets the products most returned.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Incident.getProductMostDefective">
+            <summary>
+            Gets the products most defectives.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Incident.getOrdersResponsabilityBusiness">
+            <summary>
+            Get count of the orders responsability by the company.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Incident.getOrdersResponsabilityCustomer">
+            <summary>
+             Get count of the orders responsability by the customer.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Incident.getmoneyIncidentsResponsability">
+            <summary>
+            Get the money of the incidents responsability by the company.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.IncidentType.readType">
+            <summary>
+            Reads the type.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Invoice.readAllInvoices">
+            <summary>
+            Reads all invoices.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Invoice.readIdInvoiceOrder">
+            <summary>
+            Reads the identifier invoice order.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Invoice.checkOrderInvoice">
+            <summary>
+            Checks the order invoice.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Invoice.insertInvoice">
+            <summary>
+            Inserts the invoice.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Invoice.insertOrderInvoice">
+            <summary>
+            Inserts the order invoice.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Invoice.accountInvoice">
+            <summary>
+            Accounts the invoice.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Invoice.deleteInvoice">
+            <summary>
+            Deletes the invoice.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Invoice.recoverInvoice">
+            <summary>
+            Recovers the invoice.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Invoice.modifyAccounted">
+            <summary>
+            Modifies the accounted.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Invoice.readIdorderInvoice">
+            <summary>
+            Reads the idorder invoice.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Invoice.loadTableDataInvoices">
+            <summary>
+            Loads the table data invoices.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Invoice.loadTableProductsInvoices">
+            <summary>
+            Loads the table products invoices.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.CustomerManage.readAll">
+            <summary>
+            Reads all and added to a list.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.CustomerManage.getZipcodeName(System.Int32)">
+            <summary>
+            Gets the name of the zipcode.
+            </summary>
+            <param name="refzipcode">The refzipcode.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.CustomerManage.getZipcode(ExampleDB_MVC_WPF.Domain.Customer)">
+            <summary>
+            Gets the zipcode.
+            </summary>
+            <param name="customer">The customer.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.CustomerManage.getZipcodeCities(ExampleDB_MVC_WPF.Domain.Customer)">
+            <summary>
+            Gets the zipcode cities.
+            </summary>
+            <param name="customer">The customer.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.CustomerManage.insertCustomer(ExampleDB_MVC_WPF.Domain.Customer)">
+            <summary>
+            Inserts the customer.
+            </summary>
+            <param name="customer">The customer.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.CustomerManage.deleteCustomer(ExampleDB_MVC_WPF.Domain.Customer)">
+            <summary>
+            Deletes the customer.
+            </summary>
+            <param name="customer">The customer.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.CustomerManage.modifyCustomer(ExampleDB_MVC_WPF.Domain.Customer)">
+            <summary>
+            Modifies the customer.
+            </summary>
+            <param name="customer">The customer.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.CustomerManage.readCustomer(ExampleDB_MVC_WPF.Domain.Customer)">
+            <summary>
+            Reads the customer.
+            </summary>
+            <param name="customer">The customer.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.CustomerManage.readRegion(ExampleDB_MVC_WPF.Domain.Manage.Region)">
+            <summary>
+            Reads the region.
+            </summary>
+            <param name="region">The region.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.CustomerManage.readState(ExampleDB_MVC_WPF.Domain.State)">
+            <summary>
+            Reads the state.
+            </summary>
+            <param name="state">The state.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.CustomerManage.readCity(ExampleDB_MVC_WPF.Domain.City)">
+            <summary>
+            Reads the city.
+            </summary>
+            <param name="city">The city.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.CustomerManage.readZipcode(ExampleDB_MVC_WPF.Domain.Zipcode)">
+            <summary>
+            Reads the zipcode.
+            </summary>
+            <param name="zipcode">The zipcode.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.CustomerManage.loadRegions">
+            <summary>
+            Loads the regions and added to a list.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.CustomerManage.loadStates(System.Int32)">
+            <summary>
+            Loads the states of one region and added to a list.
+            </summary>
+            <param name="refreg">The refreg.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.CustomerManage.loadCities(System.Int32)">
+            <summary>
+            Loads the cities of one state and added to a list.
+            </summary>
+            <param name="refstate">The refstate.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.CustomerManage.loadZipcodes(System.Int32)">
+            <summary>
+            Loads the zipcodes of one city and added to a list.
+            </summary>
+            <param name="refcity">The refcity.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.CustomerManage.loadAllWithZipcode(System.String)">
+            <summary>
+            Get the id of a region,state and city with a zipcode.
+            </summary>
+            <param name="zipcode">The zipcode.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.CustomerManage.searchCustomers(System.String)">
+            <summary>
+            Searches the customers and added to a list.
+            </summary>
+            <param name="filtro">The filtro.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.CustomerManage.insertToFill(ExampleDB_MVC_WPF.Domain.Customer)">
+            <summary>
+            Inserts to fill.
+            </summary>
+            <param name="customer">The customer.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.IncidentManage.readAll">
+            <summary>
+            Reads all the incidents.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.IncidentManage.loadTableDataIncidents">
+            <summary>
+            Loads the table data incidents.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.IncidentManage.readAllTypesIncidents">
+            <summary>
+            Reads all the types of incidents.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.IncidentManage.readIncidentTypes(ExampleDB_MVC_WPF.Domain.IncidentType)">
+            <summary>
+            Reads the incident types.
+            </summary>
+            <param name="type">The type.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.IncidentManage.fixIncident(ExampleDB_MVC_WPF.Domain.Incident)">
+            <summary>
+            Fixes the incident.
+            </summary>
+            <param name="incident">The incident.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.IncidentManage.productMoreIncidents">
+            <summary>
+            Get the products that have more incidents.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.IncidentManage.productMostReturned">
+            <summary>
+            Get the products most returned.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.IncidentManage.productMostDefective">
+            <summary>
+            Get the products most defective.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.IncidentManage.ordersResponsabilityIncidentsBusiness">
+            <summary>
+            Orderses the responsability incidents business.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.IncidentManage.ordersResponsabilityIncidentsCustomer">
+            <summary>
+            Orderses the responsability incidents customer.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.IncidentManage.moneyIncidentsResponsability">
+            <summary>
+            Get the total money of the incidents responsability.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.OrderManage.readAll">
+            <summary>
+            Read all the orders and put them in a list
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.OrderManage.readOrderProducts(ExampleDB_MVC_WPF.Domain.Order)">
+            <summary>
+            Read all the orderproducts and put them in a list
+            </summary>
+            <param name="order">The order.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.OrderManage.insertOrder(ExampleDB_MVC_WPF.Domain.Order)">
+            <summary>
+            Inserts the order.
+            </summary>
+            <param name="order">The order.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.OrderManage.insertOrderProducts(ExampleDB_MVC_WPF.Domain.Order)">
+            <summary>
+            Inserts the order products.
+            </summary>
+            <param name="order">The order.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.OrderManage.modifyOrder(ExampleDB_MVC_WPF.Domain.Order)">
+            <summary>
+            Modifies the order.
+            </summary>
+            <param name="order">The order.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.OrderManage.modifyOrderStatus(ExampleDB_MVC_WPF.Domain.Order)">
+            <summary>
+            Modifies the order status.
+            </summary>
+            <param name="order">The order.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.OrderManage.deleteOrderProducts(ExampleDB_MVC_WPF.Domain.Order)">
+            <summary>
+            Deletes the order products.
+            </summary>
+            <param name="order">The order.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.OrderManage.deleteOrder(ExampleDB_MVC_WPF.Domain.Order)">
+            <summary>
+            Deletes the order.
+            </summary>
+            <param name="order">The order.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.OrderManage.readPaymentmethod(ExampleDB_MVC_WPF.Domain.Paymentmethods)">
+            <summary>
+            Reads the paymentmethod.
+            </summary>
+            <param name="p">The p.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.OrderManage.loadPaymentmethods">
+            <summary>
+            Loads the paymentmethods and put them in a list.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.OrderManage.searchOrder(System.String)">
+            <summary>
+            Searches the order.
+            </summary>
+            <param name="filtro">The filtro.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.OrderManage.readAllInvoices">
+            <summary>
+            Reads all invoices and put them in a list.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.OrderManage.readIdorderInvoice(ExampleDB_MVC_WPF.Domain.Invoice)">
+            <summary>
+            Reads the idorder invoice.
+            </summary>
+            <param name="invoice">The invoice.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.OrderManage.readIdInvoiceOrder(ExampleDB_MVC_WPF.Domain.Invoice)">
+            <summary>
+            Reads the identifier invoice order.
+            </summary>
+            <param name="invoice">The invoice.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.OrderManage.checkOrderInvoice(ExampleDB_MVC_WPF.Domain.Invoice)">
+            <summary>
+            Checks the order invoice.
+            </summary>
+            <param name="invoice">The invoice.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.OrderManage.modifyAccounted(ExampleDB_MVC_WPF.Domain.Invoice)">
+            <summary>
+            Modifies the accounted.
+            </summary>
+            <param name="invoice">The invoice.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.OrderManage.insertInvoice(ExampleDB_MVC_WPF.Domain.Invoice)">
+            <summary>
+            Inserts the invoice.
+            </summary>
+            <param name="invoice">The invoice.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.OrderManage.insertOrderInvoice(ExampleDB_MVC_WPF.Domain.Invoice)">
+            <summary>
+            Inserts the order invoice.
+            </summary>
+            <param name="invoice">The invoice.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.OrderManage.accountInvoice(ExampleDB_MVC_WPF.Domain.Invoice)">
+            <summary>
+            Accounts the invoice.
+            </summary>
+            <param name="invoice">The invoice.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.OrderManage.deleteInvoice(ExampleDB_MVC_WPF.Domain.Invoice)">
+            <summary>
+            Deletes the invoice.
+            </summary>
+            <param name="invoice">The invoice.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.OrderManage.recoverInvoice(ExampleDB_MVC_WPF.Domain.Invoice)">
+            <summary>
+            Recovers the invoice.
+            </summary>
+            <param name="invoice">The invoice.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.OrderManage.readOrder(ExampleDB_MVC_WPF.Domain.Order)">
+            <summary>
+            Reads the order.
+            </summary>
+            <param name="order">The order.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.OrderManage.loadTableDataInvoices(ExampleDB_MVC_WPF.Domain.Invoice)">
+            <summary>
+            Loads the table data invoices.
+            </summary>
+            <param name="invoice">The invoice.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.OrderManage.loadTableProductsInvoices(ExampleDB_MVC_WPF.Domain.Invoice)">
+            <summary>
+            Loads the table products invoices.
+            </summary>
+            <param name="invoice">The invoice.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.OrderManage.insertToFill(ExampleDB_MVC_WPF.Domain.Order)">
+            <summary>
+            Inserts to fill.
+            </summary>
+            <param name="order">The order.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.ProductManage.readAll">
+            <summary>
+            Reads all and added to a list.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.ProductManage.readProduct(ExampleDB_MVC_WPF.Domain.Product)">
+            <summary>
+            Reads the product.
+            </summary>
+            <param name="p">The p.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.ProductManage.insertProduct(ExampleDB_MVC_WPF.Domain.Product)">
+            <summary>
+            Inserts the product.
+            </summary>
+            <param name="product">The product.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.ProductManage.deleteProduct(ExampleDB_MVC_WPF.Domain.Product)">
+            <summary>
+            Deletes the product.
+            </summary>
+            <param name="product">The product.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.ProductManage.modifyProduct(ExampleDB_MVC_WPF.Domain.Product)">
+            <summary>
+            Modifies the product.
+            </summary>
+            <param name="product">The product.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.ProductManage.readColor(ExampleDB_MVC_WPF.Domain.Color)">
+            <summary>
+            Reads the color.
+            </summary>
+            <param name="color">The color.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.ProductManage.readMeasure(ExampleDB_MVC_WPF.Domain.Measure)">
+            <summary>
+            Reads the measure.
+            </summary>
+            <param name="measure">The measure.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.ProductManage.loadColors">
+            <summary>
+            Loads the colors and added to a list.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.ProductManage.loadMeasures">
+            <summary>
+            Loads the measures and added to a list.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.ProductManage.searchProduct(System.String)">
+            <summary>
+            Searches the product.
+            </summary>
+            <param name="filtro">The filtro.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.ProductManage.insertToFill(ExampleDB_MVC_WPF.Domain.Product)">
+            <summary>
+            Inserts to fill.
+            </summary>
+            <param name="product">The product.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.SuplierManage.readAll">
+            <summary>
+            Read all the supliers from a JSON file.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.Region.readRegion">
+            <summary>
+            Reads the region.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.Region.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object" />, is equal to this instance.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object" /> to compare with this instance.</param>
+            <returns>
+              <c>true</c> if the specified <see cref="T:System.Object" /> is equal to this instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.RoleManage.readAll">
+            <summary>
+            Fill the List of roles with all the roles.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.RoleManage.readRole(ExampleDB_MVC_WPF.Domain.Role)">
+            <summary>
+            Reads the role.
+            </summary>
+            <param name="role">The role.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.RoleManage.insertRole_User(ExampleDB_MVC_WPF.Domain.Role,System.Int32)">
+            <summary>
+            Inserts the role user.
+            </summary>
+            <param name="role">The role.</param>
+            <param name="iduser">The iduser.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.RoleManage.modifyRole_User(ExampleDB_MVC_WPF.Domain.Role,System.Int32)">
+            <summary>
+            Modifies the role user.
+            </summary>
+            <param name="role">The role.</param>
+            <param name="iduser">The iduser.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.RoleManage.getPermissions(ExampleDB_MVC_WPF.Domain.Role)">
+            <summary>
+            Gets the permissions.
+            </summary>
+            <param name="role">The role.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.UserManage.readAll">
+            <summary>
+            Reads all.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.UserManage.readUser(ExampleDB_MVC_WPF.Domain.User)">
+            <summary>
+            Reads the user.
+            </summary>
+            <param name="user">The user.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.UserManage.insertUser(ExampleDB_MVC_WPF.Domain.User)">
+            <summary>
+            Inserts the user.
+            </summary>
+            <param name="user">The user.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.UserManage.checkUser(ExampleDB_MVC_WPF.Domain.User)">
+            <summary>
+            Checks the user.
+            </summary>
+            <param name="user">The user.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.UserManage.deleteUser(ExampleDB_MVC_WPF.Domain.User)">
+            <summary>
+            Deletes the user.
+            </summary>
+            <param name="user">The user.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.UserManage.modifyUser(ExampleDB_MVC_WPF.Domain.User)">
+            <summary>
+            Modifies the user.
+            </summary>
+            <param name="user">The user.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.UserManage.checkUserSQLite(ExampleDB_MVC_WPF.Domain.User)">
+            <summary>
+            Checks the user with sqlite.
+            </summary>
+            <param name="user">The user.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.UserManage.getIduser(ExampleDB_MVC_WPF.Domain.User)">
+            <summary>
+            Gets the iduser.
+            </summary>
+            <param name="user">The user.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.UserManage.getRole(ExampleDB_MVC_WPF.Domain.User)">
+            <summary>
+            Get all the roles of one user.
+            </summary>
+            <param name="user">The user.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Manage.UserManage.deleteRoles(ExampleDB_MVC_WPF.Domain.User)">
+            <summary>
+            Deletes the roles.
+            </summary>
+            <param name="user">The user.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Measure.readMeasure">
+            <summary>
+            Reads the measure.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Measure.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object" />, is equal to this instance.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object" /> to compare with this instance.</param>
+            <returns>
+              <c>true</c> if the specified <see cref="T:System.Object" /> is equal to this instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Order.readAll">
+            <summary>
+            Reads all.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Order.readOrder">
+            <summary>
+            Reads the order.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Order.readOrderProducts">
+            <summary>
+            Reads the order products.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Order.insertOrder">
+            <summary>
+            Inserts the order.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Order.insertOrderProducts">
+            <summary>
+            Inserts the order products.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Order.modifyOrder">
+            <summary>
+            Modifies the order.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Order.modifyOrderStatus">
+            <summary>
+            Modifies the order status.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Order.deleteOrder">
+            <summary>
+            Deletes the order.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Order.deleteOrderProducts">
+            <summary>
+            Deletes the order products.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Order.searchOrder(System.String)">
+            <summary>
+            Searches the order.
+            </summary>
+            <param name="filtro">The filtro.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Order.insertToFill">
+            <summary>
+            Inserts to fill test data.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Paymentmethods.readPaymentmethod">
+            <summary>
+            Reads the paymentmethod.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Paymentmethods.loadPaymentmethod">
+            <summary>
+            Loads the paymentmethod.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Paymentmethods.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object" />, is equal to this instance.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object" /> to compare with this instance.</param>
+            <returns>
+              <c>true</c> if the specified <see cref="T:System.Object" /> is equal to this instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Product.readAll">
+            <summary>
+            Reads all.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Product.readProduct">
+            <summary>
+            Reads the product.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Product.insertProduct">
+            <summary>
+            Inserts the product.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Product.insertToFill">
+            <summary>
+            Inserts to fill.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Product.deleteProduct">
+            <summary>
+            Deletes the product.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Product.modifyProduct">
+            <summary>
+            Modifies the product.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Product.loadColors">
+            <summary>
+            Loads the colors.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Product.loadMeasures">
+            <summary>
+            Loads the measures.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Product.searchProduct(System.String)">
+            <summary>
+            Searches the product.
+            </summary>
+            <param name="filtro">The filtro.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Product.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object" />, is equal to this instance.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object" /> to compare with this instance.</param>
+            <returns>
+              <c>true</c> if the specified <see cref="T:System.Object" /> is equal to this instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Role.readAll">
+            <summary>
+            Reads all.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Role.readRole">
+            <summary>
+            Reads the role.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Role.insertRole_User(System.Int32)">
+            <summary>
+            Inserts the role user.
+            </summary>
+            <param name="iduser">The iduser.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Role.modifyRole_User(System.Int32)">
+            <summary>
+            Modifies the role user.
+            </summary>
+            <param name="iduser">The iduser.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Role.getPermissions">
+            <summary>
+            Gets the permissions.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Role.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object" />, is equal to this instance.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object" /> to compare with this instance.</param>
+            <returns>
+              <c>true</c> if the specified <see cref="T:System.Object" /> is equal to this instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.State.readState">
+            <summary>
+            Reads the state.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.State.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object" />, is equal to this instance.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object" /> to compare with this instance.</param>
+            <returns>
+              <c>true</c> if the specified <see cref="T:System.Object" /> is equal to this instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Suplier.readAll">
+            <summary>
+            Reads all.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Zipcode.readZipcode">
+            <summary>
+            Reads the zipcode.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.Zipcode.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object" />, is equal to this instance.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object" /> to compare with this instance.</param>
+            <returns>
+              <c>true</c> if the specified <see cref="T:System.Object" /> is equal to this instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.User.insert">
+            <summary>
+            Inserts this instance.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.User.check">
+            <summary>
+            Checks this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.User.checkSQLite">
+            <summary>
+            Checks the sq lite.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.User.readAll">
+            <summary>
+            Reads all.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.User.delete">
+            <summary>
+            Deletes this instance.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.User.readUser">
+            <summary>
+            Reads the user.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.User.modifyUser">
+            <summary>
+            Modifies the user.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.User.getRole">
+            <summary>
+            Gets the role.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.User.getIduser">
+            <summary>
+            Gets the iduser.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Domain.User.deleteRoles">
+            <summary>
+            Deletes the roles.
+            </summary>
+        </member>
+        <member name="T:ExampleDB_MVC_WPF.Persistence.DataSet1">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:ExampleDB_MVC_WPF.Persistence.DataSet1.DataDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:ExampleDB_MVC_WPF.Persistence.DataSet1.ProductsDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:ExampleDB_MVC_WPF.Persistence.DataSet1.IncidentsDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:ExampleDB_MVC_WPF.Persistence.DataSet1.DataRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:ExampleDB_MVC_WPF.Persistence.DataSet1.ProductsRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:ExampleDB_MVC_WPF.Persistence.DataSet1.IncidentsRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:ExampleDB_MVC_WPF.Persistence.DataSet1.DataRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:ExampleDB_MVC_WPF.Persistence.DataSet1.ProductsRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:ExampleDB_MVC_WPF.Persistence.DataSet1.IncidentsRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.resources.useful.GetMD5(System.String)">
+            <summary>
+            Gets the md5.
+            </summary>
+            <param name="str">The string.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.resources.useful.ComputeSha256Hash(System.String)">
+            <summary>
+            Computes the sha256 hash.
+            </summary>
+            <param name="rawData">The raw data.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.resources.useful.TransformDate(System.Int32)">
+            <summary>
+            Transforms the date.
+            </summary>
+            <param name="date">The date.</param>
+            <returns></returns>
+        </member>
+        <member name="T:ExampleDB_MVC_WPF.Res">
+            <summary>
+              Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.ResourceManager">
+            <summary>
+              Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Culture">
+            <summary>
+              Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Añadir">
+            <summary>
+              Busca una cadena traducida similar a Añadir.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.AñadirOtro">
+            <summary>
+              Busca una cadena traducida similar a Añadir otro.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Apellido">
+            <summary>
+              Busca una cadena traducida similar a Apellido.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Bienvenido">
+            <summary>
+              Busca una cadena traducida similar a Bienvenido de nuevo.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Borrar">
+            <summary>
+              Busca una cadena traducida similar a Borrar.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Buscar">
+            <summary>
+              Busca una cadena traducida similar a Buscar.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Cantidad">
+            <summary>
+              Busca una cadena traducida similar a Cantidad.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Cerrar">
+            <summary>
+              Busca una cadena traducida similar a Cerrar.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Ciudad">
+            <summary>
+              Busca una cadena traducida similar a Ciudad.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Cliente">
+            <summary>
+              Busca una cadena traducida similar a Cliente.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Clientes">
+            <summary>
+              Busca una cadena traducida similar a Clientes.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.CodigoPostal">
+            <summary>
+              Busca una cadena traducida similar a Codigo Pos..
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Color">
+            <summary>
+              Busca una cadena traducida similar a Color.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Confirmado">
+            <summary>
+              Busca una cadena traducida similar a Confirmado.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Contraseña">
+            <summary>
+              Busca una cadena traducida similar a Contraseña.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Correo">
+            <summary>
+              Busca una cadena traducida similar a Correo.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Datos">
+            <summary>
+              Busca una cadena traducida similar a Datos.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Descripción">
+            <summary>
+              Busca una cadena traducida similar a Descripción.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.DescripcionIncidencia">
+            <summary>
+              Busca una cadena traducida similar a Descripción incidencia.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.DineroGastadoIncidencias">
+            <summary>
+              Busca una cadena traducida similar a Dinero gastado en incidencias.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Dirección">
+            <summary>
+              Busca una cadena traducida similar a Dirección.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Entrar">
+            <summary>
+              Busca una cadena traducida similar a Entrar.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Enviado">
+            <summary>
+              Busca una cadena traducida similar a Enviado.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.EnviarEmail">
+            <summary>
+              Busca una cadena traducida similar a Enviar correo.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.EnviarProducto">
+            <summary>
+              Busca una cadena traducida similar a Enviar producto.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Estado">
+            <summary>
+              Busca una cadena traducida similar a Estado.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Etiquetado">
+            <summary>
+              Busca una cadena traducida similar a Etiquetado.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Facturado">
+            <summary>
+              Busca una cadena traducida similar a Facturado.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Facturas">
+            <summary>
+              Busca una cadena traducida similar a Facturas.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Fecha">
+            <summary>
+              Busca una cadena traducida similar a Fecha.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Guardar">
+            <summary>
+              Busca una cadena traducida similar a Guardar.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Idioma">
+            <summary>
+              Busca una cadena traducida similar a Idioma.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Imprimir">
+            <summary>
+              Busca una cadena traducida similar a Imprimir.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Incidencias">
+            <summary>
+              Busca una cadena traducida similar a Incidencias.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.IncidenciasClientePedidos">
+            <summary>
+              Busca una cadena traducida similar a Incidencias del cliente en pedidos.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.IncidenciasCompañiaPedidos">
+            <summary>
+              Busca una cadena traducida similar a Incidencias de la compañia en pedidos.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Inicio">
+            <summary>
+              Busca una cadena traducida similar a Inicio.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Medida">
+            <summary>
+              Busca una cadena traducida similar a Medida.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.MetodoPago">
+            <summary>
+              Busca una cadena traducida similar a Metodo de pago.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Modificar">
+            <summary>
+              Busca una cadena traducida similar a Modificar.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Nombre">
+            <summary>
+              Busca una cadena traducida similar a Nombre.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.NuevaContraseña">
+            <summary>
+              Busca una cadena traducida similar a Nueva contraseña.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Pagado">
+            <summary>
+              Busca una cadena traducida similar a Pagado.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Pedidos">
+            <summary>
+              Busca una cadena traducida similar a Pedidos.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Perfil">
+            <summary>
+              Busca una cadena traducida similar a Perfil.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Precio">
+            <summary>
+              Busca una cadena traducida similar a Precio.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.PreviaContraseña">
+            <summary>
+              Busca una cadena traducida similar a Antigua contraseña.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Producto">
+            <summary>
+              Busca una cadena traducida similar a Producto.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Productos">
+            <summary>
+              Busca una cadena traducida similar a Productos.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.ProductosMasDefectuosos">
+            <summary>
+              Busca una cadena traducida similar a Productos mas defectuosos.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.ProductosMasDevueltos">
+            <summary>
+              Busca una cadena traducida similar a Productos mas devueltos.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.ProductosPedido">
+            <summary>
+              Busca una cadena traducida similar a Productos del pedido.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Proveedores">
+            <summary>
+              Busca una cadena traducida similar a Proveedores.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Región">
+            <summary>
+              Busca una cadena traducida similar a Región.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.RepetirContraseña">
+            <summary>
+              Busca una cadena traducida similar a Repetir contraseña.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.ResponsabilidadPagoCliente">
+            <summary>
+              Busca una cadena traducida similar a Responsabilidad de pago del cliente.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.RolesAsignados">
+            <summary>
+              Busca una cadena traducida similar a Roles asignados.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.RolesPermitidos">
+            <summary>
+              Busca una cadena traducida similar a Roles permitidos.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Telefono">
+            <summary>
+              Busca una cadena traducida similar a Telefono.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.TipoIncidencia">
+            <summary>
+              Busca una cadena traducida similar a Tipo incidencia.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Usuario">
+            <summary>
+              Busca una cadena traducida similar a Usuario.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Res.Usuarios">
+            <summary>
+              Busca una cadena traducida similar a Usuarios.
+            </summary>
+        </member>
+        <member name="T:ExampleDB_MVC_WPF.View.ControlIncident">
+            <summary>
+            Lógica de interacción para ControlIncident.xaml
+            </summary>
+            <summary>
+            ControlIncident
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlIncident.checks">
+            <summary>
+            Check the type of responsability.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlIncident.changeLanguaje">
+            <summary>
+            Changes the languaje.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlIncident.responsability">
+            <summary>
+            Change the color to green.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlIncident.noResponsability">
+            <summary>
+            Change the color to red.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlIncident.btnFix_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnFix control to fix the incident.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlIncident.btnCancel_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnCancel control to close the window.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlIncident.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:ExampleDB_MVC_WPF.View.ControlOrder">
+            <summary>
+            Lógica de interacción para ControlOrder.xaml
+            </summary>
+            <summary>
+            ControlOrder
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlOrder.#ctor(ExampleDB_MVC_WPF.Domain.User,System.Boolean,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:ExampleDB_MVC_WPF.View.ControlOrder"/> class to create a new order.
+            </summary>
+            <param name="user">The user.</param>
+            <param name="invoice">if set to <c>true</c> [invoice].</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlOrder.#ctor(ExampleDB_MVC_WPF.Domain.Order,ExampleDB_MVC_WPF.Domain.User,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:ExampleDB_MVC_WPF.View.ControlOrder"/> class to modify the order.
+            </summary>
+            <param name="order">The order.</param>
+            <param name="user">The user.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlOrder.changeLanguaje">
+            <summary>
+            Changes the languaje.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlOrder.fillData">
+            <summary>
+            Fills the data.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlOrder.cmbPaymenthmethod_Initialized(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Initialized event of the cmbPaymenthmethod control to add the paymenthmethods.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlOrder.btnCancel_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnCancel control to close the window.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlOrder.getCustomer(ExampleDB_MVC_WPF.Domain.Customer)">
+            <summary>
+            Gets the customer.
+            </summary>
+            <param name="c">The c.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlOrder.btnSearchCustomer_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnSearchCustomer control to select a customer.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlOrder.getProduct(ExampleDB_MVC_WPF.Domain.Product)">
+            <summary>
+            Gets the product.
+            </summary>
+            <param name="p">The p.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlOrder.btnSearchProduct_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnSearchProduct control to select a product.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlOrder.btnDelteProduct_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnDelteProduct control to delete a product from the datagrid.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlOrder.btnAddProduct_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnAddProduct control to clear the data to add a new product.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlOrder.btnAddGenericProduct_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnAddGenericProduct control to clear the data to add a new generic product.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlOrder.btnSaveList_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnSaveList control to save a product in a list to orderproducts.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlOrder.btnSaveOrder_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnSaveOrder control to create or modify the order.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlOrder.calculateTotal">
+            <summary>
+            Calculates the total.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlOrder.txbPrice_KeyDown(System.Object,System.Windows.Input.KeyEventArgs)">
+            <summary>
+            Handles the KeyDown event of the txbPrice control to check that only numbers are allowed.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Input.KeyEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlOrder.dgvProductsOrder_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Handles the SelectionChanged event of the dgvProductsOrder control to fill the data with the selected product.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Controls.SelectionChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlOrder.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:ExampleDB_MVC_WPF.View.ControlUser">
+            <summary>
+            Lógica de interacción para ControlUser.xaml
+            </summary>
+            <summary>
+            ControlUser
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlUser.changeLanguaje">
+            <summary>
+            Changes the languaje.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlUser.dataAllowed(ExampleDB_MVC_WPF.Domain.Role)">
+            <summary>
+            Put the allowed roles in the datagrid.
+            </summary>
+            <param name="role">The role.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlUser.dataAssigned">
+            <summary>
+            Put the assigned roles in the datagrid.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlUser.btnLeft_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnLeft control to move role from allowed to assigned.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlUser.btnRight_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnRight control to move role from assigned to allowed .
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlUser.btnSend_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnSend control to show a message.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlUser.btnCancel_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnCancel control to close the window.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlUser.btnOk_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnOk control to add or modify one user.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.ControlUser.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:ExampleDB_MVC_WPF.View.DataIncidents">
+            <summary>
+            Lógica de interacción para DataIncidents.xaml
+            </summary>
+            <summary>
+            DataIncidents
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.DataIncidents.changeLanguaje">
+            <summary>
+            Changes the languaje.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.DataIncidents.chargeData">
+            <summary>
+            Charges the data.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.DataIncidents.btnCancel_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnCancel control to close the window.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.DataIncidents.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:ExampleDB_MVC_WPF.View.Print">
+            <summary>
+            Lógica de interacción para Print.xaml
+            </summary>
+            <summary>
+            Print
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.Print.#ctor(ExampleDB_MVC_WPF.Domain.Invoice)">
+            <summary>
+            Initializes a new instance of the <see cref="T:ExampleDB_MVC_WPF.View.Print"/> class.
+            </summary>
+            <param name="invoice">The invoice.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.Print.Grid_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Loaded event of the Grid control to load values in the Report.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.Print.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:ExampleDB_MVC_WPF.View.PrintIncidents">
+            <summary>
+            Lógica de interacción para PrintIncidents.xaml
+            </summary>
+            <summary>
+            PrintIncidents
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.PrintIncidents.Grid_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Loaded event of the Grid control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.View.PrintIncidents.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:ExampleDB_MVC_WPF.Tabcontrol">
+            <summary>
+            Lógica de interacción para Tabcontrol.xaml
+            </summary>
+            <summary>
+            Tabcontrol
+            </summary>
+        </member>
+        <member name="F:ExampleDB_MVC_WPF.Tabcontrol.getValueCustomer">
+            <summary>
+             Delegate objects
+            </summary>
+        </member>
+        <member name="F:ExampleDB_MVC_WPF.Tabcontrol.getValueProduct">
+            <summary>
+             Delegate objects
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.#ctor(ExampleDB_MVC_WPF.Domain.User)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="user"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.#ctor(System.Int32,System.String)">
+            <summary>
+            Constructor to get customer or product
+            </summary>
+            <param name="opcion"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.imgLanguaje3_MouseLeftButtonDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Handles the MouseLeftButtonDown event of the imgLanguaje3 control to put Spanish.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Input.MouseButtonEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.imgLanguaje2_MouseLeftButtonDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Handles the MouseLeftButtonDown event of the imgLanguaje2 control to put Emglish.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Input.MouseButtonEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.changeLanguage">
+            <summary>
+            Changes the language.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.inicialice(ExampleDB_MVC_WPF.Domain.User)">
+            <summary>
+            Check the permissions of the user and restrict their actions
+            </summary>
+            <param name="user"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.NotPermissions(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Show a message when some user try to do something without enought permissions
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.tbiUsers_Initialized(System.Object,System.EventArgs)">
+            <summary>
+            Put a list of users in the datagrid 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.fecha">
+            <summary>
+            Put the actual date
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.btnDelete_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Delete a number of users
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.btnAdd_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Open the window to add one user
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.btnModify_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Open the window to modify one user
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.btnOk_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Change the password of the User profile
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.tbiCustomers_Initialized(System.Object,System.EventArgs)">
+            <summary>
+            Put a list of customers in the datagrid 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.txbPhone_KeyDown(System.Object,System.Windows.Input.KeyEventArgs)">
+            <summary>
+            Handles the KeyDown event of the txbPhone control to only put numbers.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Input.KeyEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.txbPrice_KeyDown(System.Object,System.Windows.Input.KeyEventArgs)">
+            <summary>
+            Handles the KeyDown event of the txbPrice control to only put prices.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Input.KeyEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.btnNewCustomer_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Clear the data and charge the regions to create a new customer
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.cmbRegiones_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Load the states of a region and limits some combobox 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.cmbStates_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Load the cities of a state and limits some combobox 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.cmbCity_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Load the zipcodes of a city and limits some combobox 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.txbZipcode_SelectionChanged(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Load the region,state and city with some zipcode 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.dgvCustomers_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Load the info of the selected customer
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.btnSaveCustomer_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Update or insert one customer
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.disableAndClear">
+            <summary>
+            Disable and clear the data of customers
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.btnDeleteCustomer_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Delete a number of customers
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.txbBuscar_SelectionChanged(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Search a customer with a specific filter
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.tbiProducts_Initialized(System.Object,System.EventArgs)">
+            <summary>
+            Put a list of products in the datagrid, and charge the colors and measures 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.disableAndClearProducts">
+            <summary>
+            Disable and clear the data of products
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.btnNewProduct_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Clear the data and enable the elements to write
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.btnDeleteProduct_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Delete a number of products
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.dgvProducts_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Load the data of a selected product
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.btnSaveProduct_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Update or insert a product
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.txbBuscarProduct_SelectionChanged(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Search a product with a specific filter
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.dgvSupliers_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Load the data of a selected suplier
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.tbiOrders_Initialized(System.Object,System.EventArgs)">
+            <summary>
+            Load the datagrid with the orders
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.btnDeleteOrder_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Delete a number of orders
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.txbBuscarOrder_SelectionChanged(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Search a specific order by his paymentmethod
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.btnNewOrder_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Open the window to create a new order
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.btnZoomOrder_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Open the window to modify a new order
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.dgvOrders_MouseDoubleClick(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Change the status of a order
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:ExampleDB_MVC_WPF.Tabcontrol.GetCustomer">
+            <summary>
+            Declared delegate
+            </summary>
+            <param name="customer"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.dgvCustomers_MouseDoubleClick(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Select a customer and close the window
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:ExampleDB_MVC_WPF.Tabcontrol.GetProduct">
+            <summary>
+            Declared delegate
+            </summary>
+            <param name="product"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.dgvProducts_MouseDoubleClick(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Select a product and close the window
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.dgvInvoices_Initialized(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Initialized event of the dgvInvoices control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.btnNewInvoice_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnNewInvoice control to open the window for creating a new order and invoice.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.btnDeleteInvoice_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnDeleteInvoice control to delete an invoice.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.btnZoomInvoice_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnZoomInvoice control to modify an order.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.btnPrintInvoice_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnPrintInvoice control to print an invoice.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.dgvInvoices_MouseDoubleClick(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Handles the MouseDoubleClick event of the dgvInvoices control to change the status of accounted.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Input.MouseButtonEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.btnFillCustomer_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnFillCustomer control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.btnFillProduct_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnFillProduct control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.btnFillOrder_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnFillOrder control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.tbiIncidents_Initialized(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Initialized event of the tbiIncidents control to inicialice the data.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.btnZoomIncident_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnZoomIncident control to look an incident.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.btnDataIncident_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnDataIncident control to open the Incident data Window.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.btnPrintIncidents_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnPrintIncidents control to print the list of incidents.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.Tabcontrol.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:ExampleDB_MVC_WPF.App">
+            <summary>
+            Lógica de interacción para App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:ExampleDB_MVC_WPF.MainWindow">
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.MainWindow.btnOK_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnOK control to check if the user and password is correct.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.MainWindow.btnOK_Copy1_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the btnOK_Copy1 control to end the program.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.MainWindow.changeLanguage">
+            <summary>
+            Changes the language.
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.ConnectOracle.getData(System.String,System.String)">
+            Method to retrieve a set of data
+            Parameter: Query
+            Parameter: Table
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.ConnectOracle.setData(System.String)">
+            Method to insert data in a table
+            Parameter: Sentence 
+        </member>
+        <member name="M:ExampleDB_MVC_WPF.ConnectOracle.DLookUp(System.String,System.String,System.String)">
+            Method to retrieve only one value
+            Parameter: column
+            Parameter: Table
+            Parameter: Condition
+        </member>
+        <member name="T:ExampleDB_MVC_WPF.Properties.Resources">
+            <summary>
+              Clase de recurso fuertemente tipado para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Properties.Resources.ResourceManager">
+            <summary>
+              Devuelve la instancia ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:ExampleDB_MVC_WPF.Properties.Resources.Culture">
+            <summary>
+              Invalida la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos usando esta clase de recursos fuertemente tipados.
+            </summary>
+        </member>
+    </members>
+</doc>

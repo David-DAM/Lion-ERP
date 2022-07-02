@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ExampleDB_MVC_WPF.ConnectOracle">
+    <Position X="16.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEQAAAAAAAAAAAAAAAAAgCAAABAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Persistence\ConnectOracle.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Instance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Res">
+    <Position X="14.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEQABkAApEBAAOF6TCJkggQE4SgBEIAGAhEhpkEE4o=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="27.25" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIIAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Tabcontrol" BaseTypeListCollapsed="true">
+    <Position X="17.5" Y="22.5" Width="2.75" />
+    <NestedTypes>
+      <Delegate Name="ExampleDB_MVC_WPF.Tabcontrol.GetCustomer">
+        <TypeIdentifier>
+          <NewMemberFileName>View\Tabcontrol.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="ExampleDB_MVC_WPF.Tabcontrol.GetProduct" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>View\Tabcontrol.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <AssociationLine Name="permissions" Type="ExampleDB_MVC_WPF.Domain.Role" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="19.688" Y="22.5" />
+        <Point X="19.688" Y="6.312" />
+        <Point X="22.76" Y="6.312" Type="JumpStart" />
+        <Point X="22.927" Y="6.312" Type="JumpEnd" />
+        <Point X="23.292" Y="6.312" Type="JumpStart" />
+        <Point X="23.458" Y="6.312" Type="JumpEnd" />
+        <Point X="25" Y="6.312" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="profile" Type="ExampleDB_MVC_WPF.Domain.User" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="20.062" Y="22.5" />
+        <Point X="20.062" Y="17.572" />
+        <Point X="22.76" Y="17.572" Type="JumpStart" />
+        <Point X="22.927" Y="17.572" Type="JumpEnd" />
+        <Point X="23.292" Y="17.572" Type="JumpStart" />
+        <Point X="23.458" Y="17.572" Type="JumpEnd" />
+        <Point X="26.604" Y="17.572" Type="JumpStart" />
+        <Point X="26.771" Y="17.572" Type="JumpEnd" />
+        <Point X="33.564" Y="17.572" Type="JumpStart" />
+        <Point X="33.731" Y="17.572" Type="JumpEnd" />
+        <Point X="34.25" Y="17.572" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>B5FCAKAKAQGKgUghQAAAABACIAHIECeABEKEyJIAYUo=</HashCode>
+      <FileName>View\Tabcontrol.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="permissions" />
+      <Field Name="profile" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Domain.City">
+    <Position X="38.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAhAAAAQAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Domain\City.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="manage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Domain.Color">
+    <Position X="32" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAoAAAAQAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Domain\Color.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="manage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Domain.Customer">
+    <Position X="36.75" Y="9.5" Width="1.5" />
+    <AssociationLine Name="state" Type="ExampleDB_MVC_WPF.Domain.State" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="37.5" Y="9.5" />
+        <Point X="37.5" Y="9.125" />
+        <Point X="44.125" Y="9.125" />
+        <Point X="44.125" Y="13.125" />
+        <Point X="43.75" Y="13.125" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="region" Type="ExampleDB_MVC_WPF.Domain.Manage.Region" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="37.188" Y="15.478" />
+        <Point X="37.188" Y="19.316" />
+        <Point X="38.5" Y="19.316" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>hACBAAEAUACQQAAggAAEAZAAAACECAAuAAAAABEASgE=</HashCode>
+      <FileName>Domain\Customer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="state" />
+      <Property Name="region" />
+      <Property Name="cities" />
+      <Property Name="zipcode" />
+      <Property Name="manage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Domain.Incident">
+    <Position X="27.5" Y="5.75" Width="1.5" />
+    <AssociationLine Name="type" Type="ExampleDB_MVC_WPF.Domain.IncidentType" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="29" Y="7.811" />
+        <Point X="30" Y="7.811" />
+        <Point X="30" Y="3.449" />
+        <Point X="30.875" Y="3.449" />
+        <Point X="30.875" Y="3.074" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAADAgAQBAAAAAAAAwAACAABSAAAABAQAAAAAgg=</HashCode>
+      <FileName>Domain\Incident.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="order" />
+      <Property Name="product" />
+      <Property Name="type" />
+      <Property Name="manage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Domain.IncidentType">
+    <Position X="30.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAIAAAAQAAAAAEAAAAAAAAAQAAAgA=</HashCode>
+      <FileName>Domain\IncidentType.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="manage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Domain.Invoice">
+    <Position X="37.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAJAgEAIAAAAAAAAUEEQAABAAAEAAAQAUAAAgA=</HashCode>
+      <FileName>Domain\Invoice.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="manage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Domain.Measure">
+    <Position X="26.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAQAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Domain\Measure.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="manage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Domain.Order">
+    <Position X="34" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACBQQARAgRQAEAAIwEAAAAAAAkAAEAAAQAAIwA=</HashCode>
+      <FileName>Domain\Order.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="customer" />
+      <Property Name="user" />
+      <Property Name="paymentmethod" />
+      <Property Name="manage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Domain.OrderProducts">
+    <Position X="30.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAQAACAAEAAAAAAAAAAAEAgA=</HashCode>
+      <FileName>Domain\OrderProducts.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="product" />
+      <Property Name="manage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Domain.Paymentmethods">
+    <Position X="37.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAQAAABAEAAAAAAACAAAAIgA=</HashCode>
+      <FileName>Domain\Paymentmethods.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="manage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Domain.Product">
+    <Position X="29.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEBAAAAQAAQAAAAgCAAAQAAAQEGAACAAAAAIIAAAgA=</HashCode>
+      <FileName>Domain\Product.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="color" />
+      <Property Name="measure" />
+      <Property Name="manage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Domain.Role">
+    <Position X="25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAUAAAAoAAAAQAABAAAAAAAAACAAAAAAQA=</HashCode>
+      <FileName>Domain\Role.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="manage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Domain.State">
+    <Position X="42.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAhAgAAQAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Domain\State.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="manage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Domain.Suplier">
+    <Position X="23" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACQAAAAAAAEAQAAAAAEAAAgAAAAAAAAAgA=</HashCode>
+      <FileName>Domain\Suplier.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="manage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Domain.User">
+    <Position X="34.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAABZAAgIAAAAIQAAAACEAAAAAAAgAgAAAAA=</HashCode>
+      <FileName>Domain\User.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="manage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Domain.Zipcode">
+    <Position X="42.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAQAAAAAEAAAAAAAAAAAACgA=</HashCode>
+      <FileName>Domain\Zipcode.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="manage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Domain.Manage.CustomerManage">
+    <Position X="39.25" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>hAIBAgAAWAAQQAAAAAgAABIAAACACAAGAAAAABECSAE=</HashCode>
+      <FileName>Domain\Manage\CustomerManage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="list" />
+      <Property Name="regions" />
+      <Property Name="states" />
+      <Property Name="cities" />
+      <Property Name="zipcodes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Domain.Manage.IncidentManage">
+    <Position X="26.75" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAABAAIZAAAIAEAAQgAEAAAAAAgQAAAAACIAAQg=</HashCode>
+      <FileName>Domain\Manage\IncidentManage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="incidents" />
+      <Property Name="types" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Domain.Manage.OrderManage">
+    <Position X="33.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAAIAgAIQgERAgQAAEAAI0EEQAABgAgEBAASBEAAIAA=</HashCode>
+      <FileName>Domain\Manage\OrderManage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="list" />
+      <Property Name="products" />
+      <Property Name="paymentmethods" />
+      <Property Name="invoices" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Domain.Manage.ProductManage">
+    <Position X="29.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAgAAQAAQAAAAoCAAEAAAAQECAACAAAAAIAAAAAA=</HashCode>
+      <FileName>Domain\Manage\ProductManage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="list" />
+      <Property Name="colors" />
+      <Property Name="measures" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Domain.Manage.RoleManage">
+    <Position X="25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAUAAAAAAAAAAAABAAAAAAAAACAAAAAAQA=</HashCode>
+      <FileName>Domain\Manage\RoleManage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="list" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Domain.Manage.SuplierManage">
+    <Position X="23" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Manage\SuplierManage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="list" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Domain.Manage.UserManage">
+    <Position X="34" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgIAAAARAAAIAAAAIAAAAACABAAIAAAAAAEAAAQ=</HashCode>
+      <FileName>Domain\Manage\UserManage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="list" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Domain.Manage.Region">
+    <Position X="38.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAQIAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Domain\Region.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="manage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Persistence.ConnectSQLite">
+    <Position X="18.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAACAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Persistence\ConnectSQLite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.Persistence.DataSet1">
+    <Position X="25" Y="7" Width="1.5" />
+    <NestedTypes>
+      <Class Name="ExampleDB_MVC_WPF.Persistence.DataSet1.IncidentsRow" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="ExampleDB_MVC_WPF.Persistence.DataSet1.ProductsRowChangeEvent" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Delegate Name="ExampleDB_MVC_WPF.Persistence.DataSet1.DataRowChangeEventHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Class Name="ExampleDB_MVC_WPF.Persistence.DataSet1.DataRowChangeEvent" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="ExampleDB_MVC_WPF.Persistence.DataSet1.ProductsRow" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="ExampleDB_MVC_WPF.Persistence.DataSet1.DataRow" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Delegate Name="ExampleDB_MVC_WPF.Persistence.DataSet1.ProductsRowChangeEventHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Class Name="ExampleDB_MVC_WPF.Persistence.DataSet1.ProductsDataTable" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="ExampleDB_MVC_WPF.Persistence.DataSet1.DataDataTable" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="ExampleDB_MVC_WPF.Persistence.DataSet1.IncidentsDataTable" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Delegate Name="ExampleDB_MVC_WPF.Persistence.DataSet1.IncidentsRowChangeEventHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Class Name="ExampleDB_MVC_WPF.Persistence.DataSet1.IncidentsRowChangeEvent" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAQCJABABAQAAAAAgCQBgIAAAAAoEABDQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.resources.useful">
+    <Position X="12.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>resources\useful.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.View.ControlIncident" BaseTypeListCollapsed="true">
+    <Position X="25.25" Y="23" Width="1.5" />
+    <AssociationLine Name="incident" Type="ExampleDB_MVC_WPF.Domain.Incident" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.688" Y="23" />
+        <Point X="26.688" Y="18.164" />
+        <Point X="26.688" Y="18.164" />
+        <Point X="26.688" Y="9.228" />
+        <Point X="27.5" Y="9.228" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAQAIAAAAAEAAAEAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>View\ControlIncident.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="incident" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.View.ControlOrder" BaseTypeListCollapsed="true">
+    <Position X="36" Y="23.25" Width="1.5" />
+    <AssociationLine Name="productOrder" Type="ExampleDB_MVC_WPF.Domain.Product" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="36" Y="23.491" />
+        <Point X="33.647" Y="23.491" />
+        <Point X="33.647" Y="11.062" />
+        <Point X="31" Y="11.062" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="user" Type="ExampleDB_MVC_WPF.Domain.User" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="36" Y="23.25" />
+        <Point X="36" Y="16.577" />
+        <Point X="35.75" Y="16.577" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAEBAACBIQMEAIAAAAAQAFAoAAAIAAAAIACAAAQAAYg=</HashCode>
+      <FileName>View\ControlOrder.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="customerOrder" />
+      <Field Name="invoice" />
+      <Field Name="order" />
+      <Field Name="productOrder" />
+      <Field Name="user" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.View.ControlUser" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="23" Width="1.5" />
+    <AssociationLine Name="allowed" Type="ExampleDB_MVC_WPF.Domain.Role" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="22.844" Y="23" />
+        <Point X="22.844" Y="5.312" />
+        <Point X="25" Y="5.312" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="role" Type="ExampleDB_MVC_WPF.Domain.Role" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="23.375" Y="23" />
+        <Point X="23.375" Y="5.812" />
+        <Point X="25" Y="5.812" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAIIAEQAkAAAAAIQAAFAAAgAAAAAAAAAAAAACAgA=</HashCode>
+      <FileName>View\ControlUser.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="allowed" />
+      <Field Name="role" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.View.CrystalReport1">
+    <Position X="31.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>View\CrystalReport1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.View.CrystalReportIncidents">
+    <Position X="29.25" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>View\CrystalReportIncidents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.View.DataIncidents" BaseTypeListCollapsed="true">
+    <Position X="21" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAEAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>View\DataIncidents.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.View.Print" BaseTypeListCollapsed="true">
+    <Position X="44" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAgAAAAA=</HashCode>
+      <FileName>View\Print.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="selected" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExampleDB_MVC_WPF.View.PrintIncidents" BaseTypeListCollapsed="true">
+    <Position X="39.25" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>View\PrintIncidents.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

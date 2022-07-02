@@ -1,0 +1,73 @@
+[
+
+	{
+		"id": "1",
+		"nif": "04512144F",
+		"name": "Carlos",
+		"surname": "Lopez",
+		"phone": "926451462"
+	},
+	{
+		"id": "2",
+		"nif": "04712547A",
+		"name": "Marta",
+		"surname": "Sanchez",
+		"phone": "665124899"
+	},
+	{
+		"id": "3",
+		"nif": "04534674J",
+		"name": "Marcos",
+		"surname": "Varas",
+		"phone": "926142598"
+	},
+	{
+		"id": "4",
+		"nif": "12522346G",
+		"name": "Javier",
+		"surname": "Ramos",
+		"phone": "926149625"
+	},
+	{
+		"id": "5",
+		"nif": "07867144B",
+		"name": "David",
+		"surname": "Garcia",
+		"phone": "926487896"
+	},
+	{
+		"id": "6",
+		"nif": "34598144F",
+		"name": "Macarena",
+		"surname": "Delgado",
+		"phone": "658147823"
+	},
+	{
+		"id": "7",
+		"nif": "04534624D",
+		"name": "Alberto",
+		"surname": "Bastante",
+		"phone": "926147896"
+	},
+	{
+		"id": "8",
+		"nif": "04523704F",
+		"name": "Daniel",
+		"surname": "Perez",
+		"phone": "926908562"
+	},
+	{
+		"id": "9",
+		"nif": "04534674C",
+		"name": "Cristina",
+		"surname": "Sanchez",
+		"phone": "926545953"
+	},
+	{
+		"id": "10",
+		"nif": "24342834D",
+		"name": "Maria",
+		"surname": "Concepcion",
+		"phone": "926788991"
+	}
+]

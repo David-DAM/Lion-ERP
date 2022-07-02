@@ -1,0 +1,53 @@
+﻿<Controls:MetroWindow  xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls" x:Class="ExampleDB_MVC_WPF.View.ControlIncident"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExampleDB_MVC_WPF.View"
+        mc:Ignorable="d"
+        Title="ControlIncident" Height="720" Width="1280"
+        MinWidth="1280" MinHeight="720" MaxWidth="1280" MaxHeight="720"                
+        ResizeMode="CanMinimize"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label Name="lblProduct" FontSize="16" Content="PRODUCT" Grid.Row="0" Grid.Column="0" HorizontalContentAlignment="Right" VerticalAlignment="Center" Margin="489,34,10,11" Height="42"/>
+        <Label Name="lblDescription" FontSize="16" Content="INCIDENT DESCRIPTION" Grid.Row="1" Grid.Column="0" HorizontalContentAlignment="Right" VerticalAlignment="Center" Margin="208,26,10,27" Height="33"/>
+        <Label Name="lblResponsability" FontSize="16" Content="CUSTOMER PAYMENT RESPONSABILITY" Grid.Row="2" Grid.Column="0" HorizontalContentAlignment="Right" VerticalAlignment="Center" Margin="131,20,10,27" RenderTransformOrigin="0.5,0.5" Height="39">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.006"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Name="lblOrder" FontSize="16" Content="ORDER PRODUCTS" Grid.Row="3" Grid.ColumnSpan="2" HorizontalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="537,15,535,0" Width="202" Height="48"/>
+        <TextBox x:Name="txbProduct" FontSize="16" Grid.Row="0" Grid.Column="1" Margin="10,34,310,21" IsEnabled="False"/>
+        <TextBox x:Name="txbDescription" FontSize="16" Grid.Row="1" Grid.Column="1" Margin="10,26,310,27" IsEnabled="False"/>
+        <TextBox x:Name="txbResponsability" Grid.Row="2" Grid.Column="1" Margin="10,22,310,29" IsEnabled="False" Background="Red"/>
+
+        <DataGrid x:Name="dgvProductsOrder" Grid.Row="3" FontSize="16" AutoGenerateColumns="False" IsReadOnly="True" Margin="300,68,300,0" Grid.ColumnSpan="2">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding id}" Header="Id"/>
+                <DataGridTextColumn x:Name="dgtcName" Binding="{Binding name}" Header="Description"/>
+                <DataGridTextColumn x:Name="dgtcPrice" Binding="{Binding priceSale}" Header="Price"/>
+                <DataGridTextColumn x:Name="dgtcAmount" Binding="{Binding amountSale}" Header="Amount"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button x:Name="btnFix" Grid.Row="4" FontSize="16"  Grid.Column="1"  Content="send product" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="137" Style="{StaticResource MahApps.Styles.Button.Square.Accent}" Click="btnFix_Click" Height="43"/>
+        <Button x:Name="btnCancel" Grid.Row="4" FontSize="16" Grid.Column="0" Content="Cancel" HorizontalAlignment="Left" Margin="528,10,0,0" VerticalAlignment="Top" Width="99" Style="{StaticResource MahApps.Styles.Button.Square.Accent}" Background="Red" Click="btnCancel_Click" Height="43"/>
+    </Grid>
+</Controls:MetroWindow>
